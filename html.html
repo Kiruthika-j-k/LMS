@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 24.8.3.2 (Linux)"/>
+	<meta name="author" content="KIRUTHIKA J"/>
+	<meta name="created" content="2025-04-01T14:44:00"/>
+	<meta name="changedby" content="KIRUTHIKA J"/>
+	<meta name="changed" content="2025-04-01T14:45:00"/>
+	<meta name="AppVersion" content="16.0000"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin: 1in }
+		p { line-height: 115%; text-align: left; orphans: 2; widows: 2; margin-bottom: 0.1in; direction: ltr; background: transparent }
+	</style>
+</head>
+<body lang="en-IN" link="#000080" vlink="#800000" dir="ltr"><p style="line-height: 108%; margin-bottom: 0.11in">
+&lt;!DOCTYPE html&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">&lt;html&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">&lt;head&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">  &lt;title&gt;Login
+Page&lt;/title&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">  &lt;style&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    body {</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">     
+font-family: Arial, sans-serif;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">     
+background-color: #f2f2f2;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    }</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    .container {</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      width:
+300px;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      padding:
+16px;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">     
+background-color: white;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      margin: 0
+auto;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      margin-top:
+100px;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">     
+border-radius: 10px;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      box-shadow:
+0 0 10px rgba(0, 0, 0, 0.1);</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    }</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">   
+input[type=text], input[type=password] {</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      width:
+100%;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      padding:
+12px;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      margin: 8px
+0;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      border: 1px
+solid #ccc;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      box-sizing:
+border-box;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    }</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    button {</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">     
+background-color: #4CAF50;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      color:
+white;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      padding:
+14px 20px;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      margin: 8px
+0;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      border:
+none;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      cursor:
+pointer;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      width:
+100%;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    }</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    button:hover
+{</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      opacity:
+0.8;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    }</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    .error {</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      color: red;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">     
+margin-bottom: 10px;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    }</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">   
+.checkbox-container {</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      margin:
+10px 0;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    }</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">  &lt;/style&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">&lt;/head&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">&lt;body&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">&lt;div
+class=&quot;container&quot;&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">  &lt;form
+onsubmit=&quot;return validateLogin(event)&quot;&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    &lt;label
+for=&quot;uname&quot;&gt;&lt;b&gt;Email&lt;/b&gt;&lt;/label&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    &lt;input
+type=&quot;text&quot; id=&quot;uname&quot; placeholder=&quot;Enter
+Email&quot; name=&quot;uname&quot;&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    &lt;label
+for=&quot;psw&quot;&gt;&lt;b&gt;Password&lt;/b&gt;&lt;/label&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    &lt;input
+type=&quot;password&quot; id=&quot;psw&quot; placeholder=&quot;Enter
+Password&quot; name=&quot;psw&quot;&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    &lt;div
+class=&quot;checkbox-container&quot;&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      &lt;input
+type=&quot;checkbox&quot; id=&quot;rememberMe&quot;&gt; Remember Me</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    &lt;/div&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    &lt;button
+type=&quot;submit&quot;&gt;Login&lt;/button&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    &lt;div
+class=&quot;error&quot; id=&quot;errorMessage&quot;&gt;&lt;/div&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">  &lt;/form&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">&lt;/div&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">&lt;script&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">  // Correct
+email and password</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">  const
+validEmail = &quot;jkoose@mail&quot;;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">  const
+validPassword = &quot;oose&quot;;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">  function
+validateLogin(event) {</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    const
+username = document.getElementById(&quot;uname&quot;).value.trim();</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    const
+password = document.getElementById(&quot;psw&quot;).value.trim();</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    const
+errorMessage = document.getElementById(&quot;errorMessage&quot;);</p>
+<p style="line-height: 108%; margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    // Clear
+previous error</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">   
+errorMessage.textContent = &quot;&quot;;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    // Validation</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    if (username
+=== &quot;&quot; || password === &quot;&quot;) {</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">     
+errorMessage.textContent = &quot;You should enter email or password
+to login&quot;;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      return
+false;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    } else if
+(username !== validEmail || password !== validPassword) {</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">     
+errorMessage.textContent = &quot;Password or email entered is wrong&quot;;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">      return
+false;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    }</p>
+<p style="line-height: 108%; margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    // Remember
+Me Functionality</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    if
+(document.getElementById(&quot;rememberMe&quot;).checked) {</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">     
+alert(&quot;Login Successful! (Remember Me Checked)&quot;);</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    } else {</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">     
+alert(&quot;Login Successful!&quot;);</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    }</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">    return true;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">  }</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">&lt;/script&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">&lt;/body&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in">&lt;/html&gt;</p>
+<p style="line-height: 108%; margin-bottom: 0.11in"> 
+</p>
+<p style="line-height: 108%; margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+</body>
+</html>
